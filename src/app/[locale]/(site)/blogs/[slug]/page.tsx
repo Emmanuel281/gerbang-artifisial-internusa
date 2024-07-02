@@ -1,7 +1,7 @@
-import Newsletter from "@/app/[locale]/components/Blog/Newsletterog/Newsletter";
-import PopularArticle from "@/app/[locale]/components/Blog/PopularArticleopularArticle";
-import SingleBlog from "@/app/[locale]/components/Blog/SingleBlogog/SingleBlog";
-import Breadcrumb from "@/app/[locale]/components/Common/Breadcrumbon/Breadcrumb";
+import Newsletter from "@/app/[locale]/components/Blog/Newsletter";
+import PopularArticle from "@/app/[locale]/components/Blog/PopularArticle";
+import SingleBlog from "@/app/[locale]/components/Blog/SingleBlog";
+import Breadcrumb from "@/app/[locale]/components/Common/Breadcrumb";
 import { getAllPosts, getPostBySlug } from "@/app/[locale]/utils/markdown";
 import markdownToHtml from "@/app/[locale]/utils/markdownToHtml";
 import { format } from "date-fns";

@@ -1,6 +1,6 @@
 import React from "react";
-import ForgotPassword from "@/app/[locale]/components/Auth/ForgotPasswordorgotPassword";
-import Breadcrumb from "@/app/[locale]/components/Common/Breadcrumbon/Breadcrumb";
+import ForgotPassword from "@/app/[locale]/components/Auth/ForgotPassword";
+import Breadcrumb from "@/app/[locale]/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
