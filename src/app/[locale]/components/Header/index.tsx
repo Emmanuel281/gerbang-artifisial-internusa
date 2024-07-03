@@ -94,15 +94,15 @@ const Header = () => {
                   <Image
                     src={`/images/LOGO ARTISIAL INTERNUSA.png`}
                     alt="logo"
-                    width={30}
-                    height={30}
+                    width={60}
+                    height={60}
                     className="header-logo  dark:hidden"
                   />
                   <Image
                     src={`/images/LOGO ARTISIAL INTERNUSA.png`}
                     alt="logo"
-                    width={30}
-                    height={30}
+                    width={60}
+                    height={60}
                     className="header-logo hidden  dark:block"
                   />
                 </>
@@ -114,15 +114,15 @@ const Header = () => {
                         : "/images/LOGO ARTISIAL INTERNUSA.png"
                       }`}
                     alt="logo"
-                    width={30}
-                    height={30}
+                    width={60}
+                    height={60}
                     className="header-logo  dark:hidden"
                   />
                   <Image
                     src={"/images/LOGO ARTISIAL INTERNUSA.png"}
                     alt="logo"
-                    width={30}
-                    height={30}
+                    width={60}
+                    height={60}
                     className="header-logo hidden  dark:block"
                   />
                 </>
