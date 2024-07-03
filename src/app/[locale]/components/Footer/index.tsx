@@ -7,7 +7,7 @@ const Footer = () => {
   const t = useTranslations("Footer");
   return (
     <footer
-      className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
+      className="wow fadeInUp relative z-10 bg-[#007237] pt-20 lg:pt-[100px]"
       data-wow-delay=".15s"
     >
       <div className="container">
@@ -24,8 +24,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+                {t("address")}
               </p>
               <div className="-mx-3 flex items-center">
                 <a

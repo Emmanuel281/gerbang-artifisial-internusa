@@ -1,6 +1,15 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const About = () => {
+  const t = useTranslations("About");
+
+  const date = new Date();
+  const year = date.getFullYear();
+  const total = (year - 2018).toLocaleString('en-US', {
+    minimumIntegerDigits: 2,
+    useGrouping: false
+  })
   return (
     <section
       id="about"
@@ -12,25 +21,20 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                  {t("title")}
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
+                  {t("paragraph1")}
                   <br /> <br />
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  {t("paragraph2")}
                 </p>
 
-                <a
+                {/* <a
                   href="/#"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
                   Know More
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -62,13 +66,13 @@ const About = () => {
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
-                        09
+                        {total}
                       </span>
                       <span className="block text-base font-semibold text-white">
-                        We have
+                        {t("other1")}
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        Years of experience
+                        {t("other2")}
                       </span>
                     </div>
                     <div>

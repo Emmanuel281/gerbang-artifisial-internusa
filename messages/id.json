@@ -1,8 +1,24 @@
 {
   "Hero": {
-    "title": "Welcome to PT.Gerbang Artifisial Internusa",
-    "titleHeader": "Go smarter with AI-Powered Software Development.",
-    "titleBody": "Overcome time and budget constraints, and achieve more with less. CEOs and board members are increasingly prioritizing generative AI in their strategies, recognizing its capability to revolutionize various aspects of their businesses."
+    "title": "Selamat datang di PT.Gerbang Artifisial Internusa",
+    "titleHeader": "Menjadi lebih cerdas dengan Pengembangan Perangkat Lunak yang Didukung AI",
+    "titleBody": "Atasi keterbatasan waktu dan anggaran, dan raih lebih banyak dengan lebih sedikit. Para CEO dan anggota dewan direksi semakin memprioritaskan AI generatif dalam strategi mereka, menyadari kemampuannya untuk merevolusi berbagai aspek bisnis"
+  },
+  "Feature": {
+    "title": "Layanan kami",
+    "subtitle": "",
+    "feature1title": "Application Generator",
+    "feature1paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
+    "feature2title": "Validation Rewards",
+    "feature2paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
+    "feature3title": "Validation Rewards",
+    "feature3paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
+    "feature4title": "Validation Rewards",
+    "feature4paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income."
+  },
+  "Client": {
+    "title": "Klien kami",
+    "subtitle": ""
   },
   "Footer": {
     "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved." 

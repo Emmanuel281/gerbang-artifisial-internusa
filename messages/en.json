@@ -4,7 +4,40 @@
     "titleHeader": "Go smarter with AI-Powered Software Development.",
     "titleBody": "Overcome time and budget constraints, and achieve more with less. CEOs and board members are increasingly prioritizing generative AI in their strategies, recognizing its capability to revolutionize various aspects of their businesses."
   },
+  "Feature": {
+    "title": "services we provide",
+    "subtitle": "Our Services",
+    "paragraph": "",
+    "feature1title": "Application Generator",
+    "feature1paragraph": "A program designed for analytic simulation, process control and user interface platform",
+    "feature2title": "Cloud Infrastructure",
+    "feature2paragraph": "Deconstruction and diversify large data to our partnered cloud providers for flexibility and expandability",
+    "feature3title": "Security Structure",
+    "feature3paragraph": "Composing security models for threat protection and inconsistency corruptio",
+    "feature4title": "SEO Specialists",
+    "feature4paragraph": "Develop and implement strategies, to be on the frontline for online search results",
+    "feature5title": "Chatbots and Virtual Assistants",
+    "feature5paragraph": "Development of AI-driven chatbots for customer service, capable of handling common queries, and providing information",
+    "feature6title": "Text Analytics",
+    "feature6paragraph": "Tools for sentiment analysis, topic extraction, and summarization from large volumes of text data, such as social media posts or customer reviews",
+    "feature7title": "Custom AI Solutions",
+    "feature7paragraph": "Designing and implementing tailored AI solutions to address specific business needs",
+    "feature8title": "Big Data Solutions",
+    "feature8paragraph": "Managing and analyzing large datasets to derive actionable insights"
+  },
+  "Client": {
+    "title": "Our Client",
+    "subtitle": ""
+  },
+  "About": {
+    "title": "Composing Backend and Frontend Framework",
+    "paragraph1": "A team of highly dedicated programmers on composing backend framework architecture to the frontend UI platforms for sustainable performance and easy experience. We are experts in complex backend technologies with framework such as Javascript library, jQuery, MVC frameworks AngularJS, React, Vue.js, Backbone.js and third party UI extensions.",
+    "paragraph2": "We create cross-platorm applications for Windows and Apple OS desktops and mobile devices for Android and IOS.",
+    "other1": "We have",
+    "other2": "Years of experience"
+  },
   "Footer": {
-    "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved." 
+    "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved.",
+    "address": ""
   }
 }

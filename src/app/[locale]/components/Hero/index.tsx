@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-screen overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      className="relative h-screen overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px] dark:bg-dark-2"
     >
       <div className="container h-full">
         <div className="-mx-4 flex h-full flex-wrap items-center">
