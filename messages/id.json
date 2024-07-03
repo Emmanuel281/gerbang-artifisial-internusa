@@ -1,26 +1,43 @@
 {
   "Hero": {
-    "title": "Selamat datang di PT.Gerbang Artifisial Internusa",
-    "titleHeader": "Menjadi lebih cerdas dengan Pengembangan Perangkat Lunak yang Didukung AI",
-    "titleBody": "Atasi keterbatasan waktu dan anggaran, dan raih lebih banyak dengan lebih sedikit. Para CEO dan anggota dewan direksi semakin memprioritaskan AI generatif dalam strategi mereka, menyadari kemampuannya untuk merevolusi berbagai aspek bisnis"
+    "title": "Selamat Datang di PT. Gerbang Artifisial Internusa",
+    "titleHeader": "Lebih cerdas dengan Pengembangan Perangkat Lunak Berbasis AI.",
+    "titleBody": "Atasi keterbatasan waktu dan anggaran, dan capai lebih banyak dengan lebih sedikit. CEO dan anggota dewan semakin mengutamakan AI generatif dalam strategi mereka, mengakui kemampuannya untuk merevolusi berbagai aspek bisnis mereka."
   },
   "Feature": {
-    "title": "Layanan kami",
-    "subtitle": "",
-    "feature1title": "Application Generator",
-    "feature1paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
-    "feature2title": "Validation Rewards",
-    "feature2paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
-    "feature3title": "Validation Rewards",
-    "feature3paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income.",
-    "feature4title": "Validation Rewards",
-    "feature4paragraph": "As a node operator, you'll be responsible for validating transactions on the blockchain. In return, you'll receive rewards in the form of the network's native cryptocurrency, providing a steady stream of passive income."
+    "title": "layanan yang kami sediakan",
+    "subtitle": "Layanan Kami",
+    "paragraph": "",
+    "feature1title": "Generator Aplikasi",
+    "feature1paragraph": "Program yang dirancang untuk simulasi analitik, kontrol proses, dan platform antarmuka pengguna",
+    "feature2title": "Infrastruktur Cloud",
+    "feature2paragraph": "Dekonstruksi dan diversifikasi data besar ke penyedia cloud mitra kami untuk fleksibilitas dan ekspandabilitas",
+    "feature3title": "Struktur Keamanan",
+    "feature3paragraph": "Menyusun model keamanan untuk perlindungan ancaman dan korupsi inkonsistensi",
+    "feature4title": "Spesialis SEO",
+    "feature4paragraph": "Mengembangkan dan mengimplementasikan strategi, untuk berada di garis depan hasil pencarian online",
+    "feature5title": "Chatbot dan Asisten Virtual",
+    "feature5paragraph": "Pengembangan chatbot berbasis AI untuk layanan pelanggan, mampu menangani pertanyaan umum, dan memberikan informasi",
+    "feature6title": "Analisis Teks",
+    "feature6paragraph": "Alat untuk analisis sentimen, ekstraksi topik, dan ringkasan dari volume teks besar, seperti posting media sosial atau ulasan pelanggan",
+    "feature7title": "Solusi AI Kustom",
+    "feature7paragraph": "Merancang dan mengimplementasikan solusi AI yang disesuaikan untuk memenuhi kebutuhan bisnis spesifik",
+    "feature8title": "Solusi Big Data",
+    "feature8paragraph": "Mengelola dan menganalisis dataset besar untuk memperoleh wawasan yang dapat ditindaklanjuti"
   },
   "Client": {
-    "title": "Klien kami",
+    "title": "Klien Kami",
     "subtitle": ""
   },
+  "About": {
+    "title": "Menyusun Kerangka Backend dan Frontend",
+    "paragraph1": "Tim programmer yang sangat berdedikasi dalam menyusun arsitektur kerangka kerja backend hingga platform UI frontend untuk kinerja yang berkelanjutan dan pengalaman yang mudah. Kami ahli dalam teknologi backend yang kompleks dengan kerangka kerja seperti pustaka Javascript, jQuery, kerangka kerja MVC AngularJS, React, Vue.js, Backbone.js dan ekstensi UI pihak ketiga.",
+    "paragraph2": "Kami membuat aplikasi lintas platform untuk desktop Windows dan Apple OS serta perangkat seluler untuk Android dan iOS.",
+    "other1": "Kami memiliki",
+    "other2": "Tahun pengalaman"
+  },
   "Footer": {
-    "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved." 
+    "Copyright": "© 2024 PT. Gerbang Artifisial Internusa. Semua hak dilindungi.",
+    "address": ""
   }
 }
