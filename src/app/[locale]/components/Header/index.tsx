@@ -92,14 +92,14 @@ const Header = () => {
               {pathUrl !== "/" ? (
                 <>
                   <Image
-                    src={`/images/LOGO ARTISIAL INTERNUSA_GIA.png`}
+                    src={`/images/LOGO ARTISIAL INTERNUSA.png`}
                     alt="logo"
                     width={30}
                     height={30}
                     className="header-logo  dark:hidden"
                   />
                   <Image
-                    src={`/images/LOGO ARTISIAL INTERNUSA_GIA.png`}
+                    src={`/images/LOGO ARTISIAL INTERNUSA.png`}
                     alt="logo"
                     width={30}
                     height={30}
@@ -110,8 +110,8 @@ const Header = () => {
                 <>
                   <Image
                     src={`${sticky
-                        ? "/images/LOGO ARTISIAL INTERNUSA_GIA.png"
-                        : "/images/LOGO ARTISIAL INTERNUSA_GIA.png"
+                        ? "/images/LOGO ARTISIAL INTERNUSA.png"
+                        : "/images/LOGO ARTISIAL INTERNUSA.png"
                       }`}
                     alt="logo"
                     width={30}
@@ -119,7 +119,7 @@ const Header = () => {
                     className="header-logo  dark:hidden"
                   />
                   <Image
-                    src={"/images/LOGO ARTISIAL INTERNUSA_GIA.png"}
+                    src={"/images/LOGO ARTISIAL INTERNUSA.png"}
                     alt="logo"
                     width={30}
                     height={30}
@@ -269,7 +269,7 @@ const Header = () => {
                       </li>
                     ),
                   )}
-                  <li style={{display: "flex"}} className="submenu-item my-1">
+                  <li className="group relative my-1 sm:flex lg:hidden">
                     <button
                     aria-label="theme toggler"
                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
