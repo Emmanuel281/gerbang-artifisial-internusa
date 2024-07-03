@@ -4,12 +4,28 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from "@chakra-ui/react";
+import { ChevronDownIcon } from "@chakra-ui/icons";
 
 import menuData from "./menuData";
+import { useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 
 const Header = () => {
   const { data: session } = useSession();
+  const [isPending, startTransition] = useTransition();
+  const router = useRouter();
+  const localActive = useLocale();
 
   const pathUrl = usePathname();
   // Navbar toggle
@@ -41,6 +57,12 @@ const Header = () => {
     }
   };
 
+  const handleLanguageChange = (newLang: string) => {
+    startTransition(() => {
+      router.replace(`/${newLang}`);
+    });
+  };
+
   const { theme, setTheme } = useTheme();
   const [lang, setLang] = useState<string>("");
 
@@ -64,18 +86,18 @@ const Header = () => {
               {pathUrl !== "/" ? (
                 <>
                   <Image
-                    src={`/images/svgviewer-png-output.png`}
+                    src={`/images/LOGO ARTISIAL INTERNUSA_GIA.png`}
                     alt="logo"
-                    width={240}
+                    width={30}
                     height={30}
-                    className="header-logo w-full dark:hidden"
+                    className="header-logo  dark:hidden"
                   />
                   <Image
-                    src={`/images/svgviewer-png-output-white.png`}
+                    src={`/images/LOGO ARTISIAL INTERNUSA_GIA.png`}
                     alt="logo"
-                    width={240}
+                    width={30}
                     height={30}
-                    className="header-logo hidden w-full dark:block"
+                    className="header-logo hidden  dark:block"
                   />
                 </>
               ) : (
@@ -83,20 +105,20 @@ const Header = () => {
                   <Image
                     src={`${
                       sticky
-                        ? "/images/svgviewer-png-output.png"
-                        : "/images/svgviewer-png-output-white.png"
+                        ? "/images/LOGO ARTISIAL INTERNUSA_GIA.png"
+                        : "/images/LOGO ARTISIAL INTERNUSA_GIA.png"
                     }`}
                     alt="logo"
-                    width={140}
+                    width={30}
                     height={30}
-                    className="header-logo w-full dark:hidden"
+                    className="header-logo  dark:hidden"
                   />
                   <Image
-                    src={"/images/svgviewer-png-output-white.png"}
+                    src={"/images/LOGO ARTISIAL INTERNUSA_GIA.png"}
                     alt="logo"
-                    width={140}
+                    width={30}
                     height={30}
-                    className="header-logo hidden w-full dark:block"
+                    className="header-logo hidden  dark:block"
                   />
                 </>
               )}
@@ -285,7 +307,27 @@ const Header = () => {
                   </svg>
                 </span>
               </button>
-              <button
+              <Menu>
+                <MenuButton
+                  px={4}
+                  py={2}
+                  transition="all 0.2s"
+                  _hover={{ bg: "gray.400" }}
+                  _expanded={{ bg: "blue.400" }}
+                  _focus={{ boxShadow: "outline" }}
+                >
+                  {localActive} <ChevronDownIcon />
+                </MenuButton>
+                <MenuList>
+                  <MenuItem onClick={() => handleLanguageChange("id")}>
+                    Indonesia
+                  </MenuItem>
+                  <MenuItem onClick={() => handleLanguageChange("en")}>
+                    English
+                  </MenuItem>
+                </MenuList>
+              </Menu>
+              {/* <button
                 aria-label="theme toggler"
                 onClick={() => setLang(lang === "id" ? "en" : "id")}
                 className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white"
@@ -309,9 +351,9 @@ const Header = () => {
                     </g>
                   </svg>
                 </span>
-              </button>
+              </button> */}
 
-              {session?.user ? (
+              {/* {session?.user ? (
                 <>
                   <p
                     className={`loginBtn px-7 py-3 text-base font-medium ${
@@ -376,7 +418,7 @@ const Header = () => {
                     </>
                   )}
                 </>
-              )}
+              )} */}
             </div>
           </div>
         </div>

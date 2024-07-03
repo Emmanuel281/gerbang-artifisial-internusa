@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from "@/app/[locale]/components/Footer";
 import Header from "@/app/[locale]/components/Header";
 import ScrollToTop from "@/app/[locale]/components/ScrollToTop";
 import { SessionProvider } from "next-auth/react";
@@ -53,7 +52,6 @@ export default function RootLayout({
               <ToasterContext />
               <Header />
               {children}
-              <Footer />
               <ScrollToTop />
             </ThemeProvider>
           </SessionProvider>

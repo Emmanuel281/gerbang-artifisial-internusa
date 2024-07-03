@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-screen overflow-hidden bg-gradient-to-br from-primary pt-[120px] dark:to-dark md:pt-[130px] lg:pt-[160px]"
+      className="relative h-screen overflow-hidden pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
       <div className="container h-full">
         <div className="-mx-4 flex h-full flex-wrap items-center">
@@ -16,29 +16,30 @@ const Hero = () => {
               data-wow-delay=".2s"
             >
               <div className="my-24">
-                <h1 className="text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
+                <h5 className="font-bold leading-snug text-primary sm:leading-snug lg:leading-[1.2]">
+                  {t("title")}
+                </h5>
+                <h1 className="text-3xl font-bold leading-snug text-black dark:text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
                   {t("titleHeader")}
                 </h1>
                 {/* <h1 className="text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
                     Become a Node Operator Powering the Future of Blockchain
                   </h1> */}
-                <p className="mt-8 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Joining the ranks of node operators is an exciting opportunity
-                  to play a vital role in the growth and security of blockchain
-                  networks. As a node operator, you&apos;ll contribute to the
-                  decentralization and scalability of the network, earning
-                  rewards for your participation, and helping to shape the
-                  future of this revolutionary technology.
+                <p className="mt-8 max-w-[600px] text-base font-medium text-black dark:text-white sm:text-lg sm:leading-[1.44]">
+                  {t("titleBody")}
                 </p>
               </div>
               <br />
 
-              <Image
-                src={`/images/hero.png`}
-                alt="logo"
-                width={636}
-                height={636}
-              />
+              <div className="block sm:hidden">
+                <Image
+                  src={`/images/hero.png`}
+                  alt="logo"
+                  width={636}
+                  height={636}
+                />
+              </div>
+              
               {/* <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link

@@ -1,6 +1,10 @@
 {
   "Hero": {
-    "titleHeader": "Become a Node Operator Powering the Future of Blockchain",
-    "titleBody": "Joining the ranks of node operators is an exciting opportunity to play a vital role in the growth and security of blockchain networks. As a node operator, you&apos;ll contribute to the decentralization and scalability of the network, earning rewards for your participation, and helping to shape the future of this revolutionary technology."
+    "title": "Welcome to PT.Gerbang Artifisial Internusa",
+    "titleHeader": "Go smarter with AI-Powered Software Development.",
+    "titleBody": "Overcome time and budget constraints, and achieve more with less. CEOs and board members are increasingly prioritizing generative AI in their strategies, recognizing its capability to revolutionize various aspects of their businesses."
+  },
+  "Footer": {
+    "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved." 
   }
 }

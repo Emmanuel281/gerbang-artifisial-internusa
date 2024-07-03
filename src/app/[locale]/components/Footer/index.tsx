@@ -1,7 +1,10 @@
+
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+  const t = useTranslations("Footer");
   return (
     <footer
       className="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
@@ -273,33 +276,13 @@ const Footer = () => {
                   >
                     Privacy policy
                   </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Legal notice
-                  </a>
-                  <a
-                    href="/#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Terms of service
-                  </a>
                 </div>
               </div>
             </div>
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
-                  Designed and Developed by{" "}
-                  <a
-                    href="https://tailgrids.com"
-                    rel="nofollow noopner noreferrer"
-                    target="_blank"
-                    className="text-gray-1 hover:underline"
-                  >
-                    TailGrids and Next.js Templates
-                  </a>
+                  {t('Copyright')}
                 </p>
               </div>
             </div>

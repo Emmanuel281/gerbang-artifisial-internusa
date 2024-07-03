@@ -10,11 +10,12 @@ import Hero from "@/app/[locale]/components/Hero";
 import Pricing from "@/app/[locale]/components/Pricing";
 import Team from "@/app/[locale]/components/Team";
 import Testimonials from "@/app/[locale]/components/Testimonials";
+import Footer from "@/app/[locale]/components/Footer";
 import { getAllPosts } from "@/app/[locale]/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Indo Blockchain",
+  title: "Gerbang Artifisial Internusa",
   description:
     "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
 };
@@ -28,14 +29,15 @@ export default function Home() {
       <Hero />
       <Features />
       <About />
-      <CallToAction />
-      <Pricing />
+      {/* <CallToAction /> */}
+      {/* <Pricing /> */}
       <Testimonials />
       <Faq />
-      <Team />
-      <HomeBlogSection posts={posts} />
-      <Contact />
+      {/* <Team /> */}
+      {/* <HomeBlogSection posts={posts} /> */}
+      {/* <Contact /> */}
       <Clients />
+      <Footer />
     </main>
   );
 }

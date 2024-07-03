@@ -1,6 +1,10 @@
 {
   "Hero": {
-    "titleHeader": "Menjadi Operator Node yang Mendukung Masa Depan Blockchain",
-    "titleBody": "Bergabung dengan jajaran operator node merupakan peluang menarik untuk memainkan peran penting dalam pertumbuhan dan keamanan jaringan blockchain. Sebagai operator node, Anda akan berkontribusi pada desentralisasi dan skalabilitas jaringan, mendapatkan imbalan atas partisipasi Anda, dan membantu membentuk masa depan teknologi revolusioner ini."
+    "title": "Welcome to PT.Gerbang Artifisial Internusa",
+    "titleHeader": "Go smarter with AI-Powered Software Development.",
+    "titleBody": "Overcome time and budget constraints, and achieve more with less. CEOs and board members are increasingly prioritizing generative AI in their strategies, recognizing its capability to revolutionize various aspects of their businesses."
+  },
+  "Footer": {
+    "Copyright" : "© 2024 PT. Gerbang Artifisial Internusa. All rights reserved." 
   }
 }
