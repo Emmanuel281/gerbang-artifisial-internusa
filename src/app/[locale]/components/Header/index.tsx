@@ -273,7 +273,7 @@ const Header = () => {
                     <button
                     aria-label="theme toggler"
                     onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                    className="flex h-8 w-8 w-3/6 items-center justify-center text-body-color duration-300 dark:text-white"
+                    className="flex h-8  w-3/6 items-center justify-center text-body-color duration-300 dark:text-white"
                   >
                     <span>
                       <svg
