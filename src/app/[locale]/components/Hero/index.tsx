@@ -31,14 +31,12 @@ const Hero = () => {
               </div>
               <br />
 
-              <div className="block sm:hidden">
                 <Image
                   src={`/images/hero.png`}
                   alt="logo"
                   width={636}
                   height={636}
                 />
-              </div>
               
               {/* <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
